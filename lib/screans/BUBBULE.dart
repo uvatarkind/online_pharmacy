@@ -51,7 +51,7 @@ class Bubblepage extends StatelessWidget {
                 decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
-                        'assets/products home/bubles.jpg'), // تستبدل 'assets/image.png' بمسار الصورة الخاصة بك
+                        'assets/products home/bubles.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -189,15 +189,6 @@ class Bubblepage extends StatelessWidget {
                       child: ElevatedButton.icon(
                           onPressed: () {
                             _showDialog(context);
-                            // final cart = Provider.of<CartProvider>(context,
-                            //     listen: false);
-                            // cart.addItem(item);
-                            // ScaffoldMessenger.of(context).showSnackBar(
-                            //   SnackBar(
-                            //     content: Text('${item.title} added to cart'),
-                            //     duration: Duration(seconds: 2),
-                            //   ),
-                            // );
                           },
                           icon: Icon(
                             Icons.shopping_cart,
@@ -221,14 +212,7 @@ class Bubblepage extends StatelessWidget {
                                   RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(10.0),
                                       side: const BorderSide(
-                                          color: Colors.white))))),
-                      // child: ElevatedButton(
-                      //   onPressed: () async {
-                      //     final player = AudioPlayer();
-                      //     await player.play(AssetSource('audio/Pay.mp3'));
-                      //   },
-                      //   child: Text('buy '),
-                      // ),
+                                          color: Colors.white)))))
                     )
                   ],
                 ),
@@ -238,10 +222,3 @@ class Bubblepage extends StatelessWidget {
     );
   }
 }
-
-
-/*
-*  onPressed: () async {
-              final player = AudioPlayer();
-              await player.play(AssetSource('sound/Pay.mp3'));
-              await player.setVolume(10);*/

@@ -142,7 +142,7 @@ class pandol extends StatelessWidget {
                               width: 15,
                             ),
                             Text(
-                              "350EGP",
+                              "350 Birr",
                               style: TextStyle(
                                   color: Colors.red[700],
                                   fontSize: 20,

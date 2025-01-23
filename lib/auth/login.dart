@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
                   style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
               Container(height: 20),
               const Text("Login To Continue Using The App",
-                  style: TextStyle(color: Colors.grey)),
+                  style: TextStyle(color: Colors.white)),
               Container(height: 25),
               Form(
                 key: _formKey,
@@ -80,16 +80,6 @@ class _LoginState extends State<Login> {
                         }
                         return null;
                       },
-                    ),
-                    Container(
-                      margin: const EdgeInsets.only(top: 20, bottom: 23),
-                      alignment: Alignment.topRight,
-                      child: const Text(
-                        "Forgot Password ?",
-                        style: TextStyle(
-                          fontSize: 14,
-                        ),
-                      ),
                     ),
                   ],
                 ),

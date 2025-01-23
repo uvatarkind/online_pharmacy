@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:online_pharmacy/provider/theme_provider.dart';
 import 'package:provider/provider.dart';
+import 'profile.dart'; 
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -22,7 +23,15 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       body: ListView(
         children: [
-        
+          ListTile(
+            title: Text('Profile'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ProfilePage()),
+              );
+            },
+          ),
           SwitchListTile(
             title: Text('Enable Dark Mode'),
             value: _darkModeEnabled,
@@ -43,7 +52,6 @@ class _SettingsPageState extends State<SettingsPage> {
               });
             },
           ),
-       
         ],
       ),
     );

@@ -3,12 +3,12 @@ import 'package:online_pharmacy/screans/panadol.dart';
 import 'package:online_pharmacy/screans/skincare.dart';
 import 'package:online_pharmacy/screans/stripss.dart';
 import 'package:online_pharmacy/screans/toolspage.dart';
-import 'package:online_pharmacy/screans/vatimen.dart';
+import 'package:online_pharmacy/screans/vitamin.dart';
 import '../components/model for home page .dart';
 import '../funcations/funcation1.dart';
 import 'BUBBULE.dart';
 import 'chalpas.dart';
-import 'midicine.dart';
+import 'medicine.dart';
 import 'on.dart';
 
 class Homepage extends StatelessWidget {
@@ -17,6 +17,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         body: Stack(
       children: [
         ClipPath(

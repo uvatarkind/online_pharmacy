@@ -16,13 +16,11 @@ class ThemeProvider with ChangeNotifier {
   static final ThemeData _lightTheme = ThemeData(
     primarySwatch: Colors.blue,
     brightness: Brightness.light,
-    // Add other light theme properties here
   );
 
   static final ThemeData _darkTheme = ThemeData(
     primarySwatch: Colors.blue,
     brightness: Brightness.dark,
-    // Add other dark theme properties here
     );
   }
 
@@ -30,6 +28,5 @@ class ThemeProvider with ChangeNotifier {
     return ThemeData(
       primarySwatch: Colors.blue,
       brightness: Brightness.dark,
-      // Add other dark theme properties here
     );
   }

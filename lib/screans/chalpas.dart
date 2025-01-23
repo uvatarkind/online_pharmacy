@@ -112,7 +112,7 @@ class chAlpa extends StatelessWidget {
                           Row(
                             children: [
                             const SizedBox(width: 15,),
-                            Text("250EGP",
+                            Text("250 Birr",
                             style:TextStyle(
                                 color: Colors.red[700],
                                 fontSize: 23,

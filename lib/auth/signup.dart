@@ -37,7 +37,7 @@ class _SignUpState extends State<SignUp> {
                         TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 Container(height: 20),
                 const Text("Sign Up To Continue Using The App",
-                    style: TextStyle(color: Colors.grey)),
+                    style: TextStyle(color: Colors.white)),
                 Container(height: 22),
                 Form(
                   key: _formKey,

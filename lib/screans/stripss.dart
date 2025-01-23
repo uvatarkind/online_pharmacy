@@ -133,7 +133,7 @@ class strepsil extends StatelessWidget {
                           Row(
                             children: [
                             const SizedBox(width: 15,),
-                              Text("350EGP",
+                              Text("100 Birr",
                             style:TextStyle(
                                 color: Colors.red[700],
                                 fontSize: 20,

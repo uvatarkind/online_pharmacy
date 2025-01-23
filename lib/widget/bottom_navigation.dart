@@ -17,7 +17,6 @@ class _BottomNavigationState extends State<BottomNavigation> {
   final GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   final List<Widget> _pages = [
-    // Add your pages here
     Homepage(),
     CartPage(),
     WishListPage(),
