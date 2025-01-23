@@ -16,8 +16,6 @@ class _ProfilePageState extends State<ProfilePage> {
   String _name = "";
   String _email = "";
   File? _image;
-
-  // Define your colors (replace with your actual desired colors)
   Color primaryColor = Colors.teal; 
   Color contrastColor = Colors.white; 
 
